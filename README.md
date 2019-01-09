@@ -1,4 +1,5 @@
 # Experimetrics BITSS Workshop
+## This readme file is better than yours
 Resources for the workshop on dynamic documents at Universidad del Rosario
 
 ---
@@ -55,9 +56,9 @@ In order to do this, please go to [https://desktop.github.com/](https://desktop.
 
 Afterwards, please make an account on Github. You will be asked to put in this information when you launch the Github Desktop application.
 
-As a proof-of-concept/exercise, once you have everything set up, go to ```clone a repository```, the URL tab and put in [https://github.com/lordflaron/Experimetrics-BITSS-Workshop.git](https://github.com/lordflaron/Experimetrics-BITSS-Workshop.git), the git clone URL for our repository. Afterwards, there will be a folder with all the workshop materials. You have "cloned" the repository on Github. Congratulations! 
+As a proof-of-concept/exercise, once you have everything set up, go to ```clone a repository```, the URL tab and put in [https://github.com/lordflaron/Experimetrics-BITSS-Workshop.git](https://github.com/lordflaron/Experimetrics-BITSS-Workshop.git), the git clone URL for our repository. Afterwards, there will be a folder with all the workshop materials. You have "cloned" the repository on Github. Congratulations!
 
-## Setting up Notepad++ 
+## Setting up Notepad++
 
 Please install Notepad++ from [https://notepad-plus-plus.org/download/v7.6.html](https://notepad-plus-plus.org/download/v7.6.html)
 
@@ -70,14 +71,14 @@ Please follow these instructions to integrate Stata with Notepad++
 
 ## Setting up Jupyter Notebooks and RStudio
 
-To install Jupyter Notebooks and Rstudio, please go to [https://www.anaconda.com/download/](https://www.anaconda.com/download/) and download the Python 3.7 version of the Anaconda Distribution. This application installs a Python and R environment on your desktop, as well as some helpful libraries and applications for scientific computing. **Even if you do not plan on using Python or R in the future, (which would be a shame, but regardless) please install this application.** 
+To install Jupyter Notebooks and Rstudio, please go to [https://www.anaconda.com/download/](https://www.anaconda.com/download/) and download the Python 3.7 version of the Anaconda Distribution. This application installs a Python and R environment on your desktop, as well as some helpful libraries and applications for scientific computing. **Even if you do not plan on using Python or R in the future, (which would be a shame, but regardless) please install this application.**
 
 
 After a lengthy installation process, you will have access to Rstudio and Jupyter notebook from the Anaconda Navigator (and notice that there is also a program called Anaconda Prompt, this will be important later). Although Jupyter Notebooks should be installed, RStudio may not be. Please go to Anaconda Navigator (it may take a while to load) and in the RStudio box, click install. If Jupyter notebooks does not show as installed, please click to install it as well.
 
 ### Installing the Stata kernel for Jupyter Notebooks
 
-Jupyter Notebooks come with so-called "kernels." The kernels are basically the language that will interpret your code. But the beauty of Jupyter notebooks is that they don't need to only have a Python kernel. In fact, for our purposes, a clever guy developed a Stata kernel, that will make our life very easy. The website for the kernel is [here](https://kylebarron.github.io/stata_kernel/). 
+Jupyter Notebooks come with so-called "kernels." The kernels are basically the language that will interpret your code. But the beauty of Jupyter notebooks is that they don't need to only have a Python kernel. In fact, for our purposes, a clever guy developed a Stata kernel, that will make our life very easy. The website for the kernel is [here](https://kylebarron.github.io/stata_kernel/).
 
 We are going to go through the installation process, but his website has instructions on how to install the stata kernel, as well as some more advanced techniques that would be useful for scientific computing (some of which we will talk about).
 
@@ -85,7 +86,7 @@ We are going to go through the installation process, but his website has instruc
 
 In order to install the Stata kernel, we need to use ```pip```, a Python program that hosts Python programs (that's so meta). To do this, go to *Anaconda Prompt* (which I mentioned before) and type:
 
-``` 
+```
 pip --help
 ```
 
@@ -96,7 +97,7 @@ If this is your first foray into using a commandline, congratulations, you are n
 
 #### Installing the Stata Kernel
 
-**Note for Windows Users**: Please follow the steps in [https://www.stata.com/automation/#install] to register your Stata with your computer before installing. 
+**Note for Windows Users**: Please follow the steps in [https://www.stata.com/automation/#install] to register your Stata with your computer before installing.
 
 After this, in the same Anaconda Prompt, you have open now, type:
 
@@ -145,6 +146,3 @@ pip show stata_kernel
 ```
 
 The version should say 1.10.1.
-
-
-  
